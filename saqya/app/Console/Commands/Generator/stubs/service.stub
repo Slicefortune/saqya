@@ -1,0 +1,18 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ repositoryNamespace }};
+
+class {{ serviceName }} extends BaseService
+{
+    /**
+    * Constructor
+    *
+    * @pram {{ repositoryName }} $repository
+    */
+    public function __construct({{ repositoryName }} $repository)
+    {
+        parent::__construct($repository);
+    }
+}

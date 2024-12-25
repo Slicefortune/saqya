@@ -1,0 +1,18 @@
+<div class="text-center mb-4">
+    <h3 class="address-title mb-2">{{ $title ?? "Form Title" }}</h3>
+</div>
+<form id="modalForm" class="row g-3" action="{{ $actionRoute }}" method="POST">
+    @csrf
+    @method($actionMethod)
+    <hr class="col-12"/>
+    <div class="col-12 text-center">
+        <button type="submit" class="btn btn-primary me-sm-3 me-1">Submit</button>
+        <button
+            type="reset"
+            class="btn btn-label-secondary"
+            data-bs-dismiss="modal"
+            aria-label="Close">
+            Cancel
+        </button>
+    </div>
+</form>

@@ -1,0 +1,12 @@
+{
+  "name": "dev-buntoo/benefit-pay",
+  "description": "Your package description",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "BenefitPay\\": "src/"
+    }
+  },
+  "require": {},
+  "license": "MIT"
+}
